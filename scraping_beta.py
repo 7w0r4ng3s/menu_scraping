@@ -81,7 +81,6 @@ df_prev = pd.read_csv('{}.csv'.format(prev_date), header=None)
 prev_col = df_prev.iloc[:, 0]
 today_col = df_today.iloc[:, 0]
 
-
 # extract the intersection of both menus and convert it to a list
 intersec = pd.Series(list(set(today_col).intersection(set(prev_col))))
 intersec = intersec.tolist()
