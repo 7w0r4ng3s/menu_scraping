@@ -48,23 +48,18 @@ print(food_list)
 
 
 # preference list, labeled by myself (like or dislike)
-pref = [1, 1, 1, 0, 0, 
-		1, 0, 0, 0, 1, 
-		1, 0, 0, 1, 0, 
-		0, 0, 0, 0, 1, 
-		1, 0, 0, 0, 0,
-		1, 0, 0, 0 ]
+pref_2 = [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0]
 
 
 # ---------- Make a csv files containing food list and preference ----------
 
 # timezone setting (title of the csv file)
 us_pacific = timezone('US/Pacific')
-cn_time = datetime.now(us_pacific)
-time = cn_time.strftime('%Y-%m-%d')
+time = datetime.now(us_pacific)
+us_time = time.strftime('%Y-%m-%d')
 
 # write the food list to a csv file
-csv_path = '/Users/7w0r4ng3s/Desktop/menu_scraping/{}.csv'.format(time)
+csv_path = '/Users/7w0r4ng3s/Desktop/menu_scraping/{}.csv'.format(us_time)
 
 with open(csv_path, "w") as output:
     writer = csv.writer(output, lineterminator='\n')
