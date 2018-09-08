@@ -8,12 +8,13 @@ from urllib.parse import urljoin
 # from lxml import html
 import csv
 import datetime
+from pytz import timezone
 
 
 # ---------- Get request from the webpage and extract food name ----------
 
 # url of ucsc college 9 & 10 dining hall
-url = 'https://nutrition.sa.ucsc.edu/nutframe.asp?sName=UC+Santa+Cruz+Dining&locationNum=40&locationName=Colleges+Nine+%26+Ten+Dining+Hall&naFlag=1'
+url = 'https://nxxutrition.sa.ucsc.edu/nutframe.asp?sName=UC+Santa+Cruz+Dining&locationNum=40&locationName=Colleges+Nine+%26+Ten+Dining+Hall&naFlag=1'
 
 # scrap the menu data from the webpage
 # since the menu data is cannot be scrapped from the html file directly
