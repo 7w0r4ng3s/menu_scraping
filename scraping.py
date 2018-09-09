@@ -17,7 +17,7 @@ url = 'https://nutrition.sa.ucsc.edu/nutframe.asp?sName=UC+Santa+Cruz+Dining&loc
 
 # scrap the menu data from the webpage
 # since the menu data is cannot be scrapped from the html file directly
-# we have to make additional requests to get the frame page contents 
+# we have to make additional requests to get the frame page contents
 with requests.Session() as session:
     response = session.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
@@ -25,7 +25,7 @@ with requests.Session() as session:
     for frame in soup.select("frameset frame"):
         frame_url = urljoin(url, frame["src"])
         response = session.get(frame_url)
-        frame_soup = BeautifulSoup(response.content, 'html.parser') 
+        frame_soup = BeautifulSoup(response.content, 'html.parser')
         # print(frame_soup.prettify())
 
 
@@ -90,7 +90,7 @@ def write_csv():
     df.to_csv('{}.csv'.format(us_time))
     print('add_column_name: COMPLETED')
 
-    
+
 
 
 if __name__ == "__main__":
