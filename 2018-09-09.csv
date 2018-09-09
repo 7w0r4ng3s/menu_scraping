@@ -1,24 +1,25 @@
-Bar Taqueria,0
-Buttermilk Pancakes,1
-Cage Free Scrambled Eggs,1
-California Pasta,1
-Chef's Special,0
-Condiments,0
-Corn Tortillas,0
-Creamy Alfredo Sauce,0
-Garlic Mashed Yukon Golds,0
-Hard-boiled Cage Free Eggs,1
-Hash Brown Patty,1
-Meatball Bar,1
-Meatballs,1
-Mexican Rice,0
-Natural BridgesTofu Scramble,0
-Oatmeal Gluten-Free,0
-Oven Roasted Allergen Free Chicken Thigh,1
-Pork Carnitas,1
-Spicy Arrabbiata Sauce,0
-Steamed Rice,1
-Steamed Seasonal Vegetables,0
-Taqueria Chicken,0
-Thai Coconut Curry Chicken Soup,0
-Turkey Sausage Patty,1
+,food,pref
+0,Bar Taqueria,0
+1,Buttermilk Pancakes,1
+2,Cage Free Scrambled Eggs,1
+3,California Pasta,1
+4,Chef's Special,0
+5,Condiments,0
+6,Corn Tortillas,0
+7,Creamy Alfredo Sauce,0
+8,Garlic Mashed Yukon Golds,0
+9,Hard-boiled Cage Free Eggs,1
+10,Hash Brown Patty,1
+11,Meatball Bar,1
+12,Meatballs,1
+13,Mexican Rice,0
+14,Natural BridgesTofu Scramble,0
+15,Oatmeal Gluten-Free,0
+16,Oven Roasted Allergen Free Chicken Thigh,1
+17,Pork Carnitas,1
+18,Spicy Arrabbiata Sauce,0
+19,Steamed Rice,1
+20,Steamed Seasonal Vegetables,0
+21,Taqueria Chicken,0
+22,Thai Coconut Curry Chicken Soup,0
+23,Turkey Sausage Patty,1
