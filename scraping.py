@@ -36,25 +36,28 @@ food_name = frame_soup.find_all('div', attrs={'class': 'menusamprecipes'})
 
 # convert the name of the meal type in html form to a list form
 meal_type = [item.string for item in meal_name]
-print(meal_type)
 print('Length: ', len(meal_type))
+for i in meal_type:
+    print(i)
 print()
-
+print('-' * 40 + '\n')
 
 # convert the food name in html form to a list form
 food_list = [item.string for item in food_name]
-print(food_list)
 print('Food list length: ', len(food_list))
+for food in food_list:
+    print(food)
 print()
-
+print('-' * 40 + '\n')
 
 # In case of dupliate food name, the list should be converted to a set
 # sort
 food_list = sorted(list(set(food_list)))
-print(food_list)
 print('Sorted length: ', len(food_list))
+for food in food_list:
+    print(food)
 print()
-
+print('-' * 40 + '\n')
 
 # preference list, labeled by myself
 # pref_1 = [1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0 ]
@@ -88,7 +91,6 @@ def write_csv():
     print('add_column_name: COMPLETED')
 
     
-
 
 
 if __name__ == "__main__":
