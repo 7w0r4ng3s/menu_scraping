@@ -17,7 +17,7 @@ url = 'https://nutrition.sa.ucsc.edu/nutframe.asp?sName=UC+Santa+Cruz+Dining&loc
 
 # scrap the menu data from the webpage
 # since the menu data is cannot be scrapped from the html file directly
-# we have to make additional requests to get the frame page contents 
+# we have to make additional requests to get the frame page contents
 with requests.Session() as session:
     response = session.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
@@ -25,7 +25,7 @@ with requests.Session() as session:
     for frame in soup.select("frameset frame"):
         frame_url = urljoin(url, frame["src"])
         response = session.get(frame_url)
-        frame_soup = BeautifulSoup(response.content, 'html.parser') 
+        frame_soup = BeautifulSoup(response.content, 'html.parser')
         # print(frame_soup.prettify())
 
 
@@ -73,7 +73,7 @@ write_food()
 
 # read the csv file of the current day
 # the dataframe will be compared with the 0th row (food list) of the full data and extract those
-# which 
+# which
 df_today = pd.read_csv('{}.csv'.format(us_time), header=None)
 df_prev = pd.read_csv('{}.csv'.format(prev_date), header=None)
 
@@ -98,8 +98,3 @@ pref_list_today = []
 # today_dict = dict
 # for food in intersec:
 #     if food in dict_prev.keys():
-
-
-
-
-
