@@ -1,4 +1,6 @@
 # import dependencies
+import os
+import io
 import bs4
 import requests
 from bs4 import BeautifulSoup
@@ -9,7 +11,6 @@ import csv
 from datetime import datetime, date, timedelta
 from pytz import timezone
 import pandas as pd
-import os
 
 
 # url of ucsc college 9 & 10 dining hall
@@ -18,7 +19,7 @@ url = 'https://nutrition.sa.ucsc.edu/nutframe.asp?sName=UC+Santa+Cruz+Dining&loc
 
 # scrap the menu data from the webpage
 # since the menu data is cannot be scrapped from the html file directly
-# we have to make additional requests to get the frame page contents
+# we have to make additional requests to get the frame page contents 
 with requests.Session() as session:
     response = session.get(url)
     soup = BeautifulSoup(response.content, 'html.parser')
@@ -26,7 +27,7 @@ with requests.Session() as session:
     for frame in soup.select("frameset frame"):
         frame_url = urljoin(url, frame["src"])
         response = session.get(frame_url)
-        frame_soup = BeautifulSoup(response.content, 'html.parser')
+        frame_soup = BeautifulSoup(response.content, 'html.parser') 
         # print(frame_soup.prettify())
 
 
@@ -91,6 +92,7 @@ def write_data():
     print('write_csv: COMPLETED')
 
     df = pd.read_csv(path, names=['food', 'pref'])
+    df.index.names = ['index']
     df.to_csv(path)
     print('add_column_name: COMPLETED')
 
@@ -108,6 +110,15 @@ def merge_data():
     result = pd.concat(merged)
     result.to_csv('data.csv')
 
+def append_data():
+    df1 = pd.read_csv('Data.csv', index_col='index')
+    df2 = pd.read_csv(path, index_col='index')
+    df3 = df1.append(df2).reset_index()
+    df3.index.names = ['index']
+    df3 = df3.drop('index', 1).sort_values('food').reset_index().drop('index', 1)
+    df3.to_csv('Data.csv')
+
 
 if __name__ == "__main__":
-	write_data()
+    write_data()
+    append_data()
