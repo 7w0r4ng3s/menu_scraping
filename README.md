@@ -1,4 +1,4 @@
-# Food Preference Project Using Machine Learning
+# Food Preference Project with Machine Learning
 
 > The project is a food preference recommender which using the menu data from UCSC dining hall and labels on different foods to recommend the food I like. Since the project is currently still in development, some functionalities is waiting to be completed in the future.
 
