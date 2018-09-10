@@ -9,6 +9,7 @@ import csv
 from datetime import datetime, date, timedelta
 from pytz import timezone
 import pandas as pd
+import os
 
 
 # url of ucsc college 9 & 10 dining hall
@@ -75,20 +76,22 @@ print()
 
 
 # write the food list to a csv file
-path = '/Users/7w0r4ng3s/Desktop/menu_scraping/csv/{}.csv'.format(us_time)
+path = '/Users/7w0r4ng3s/Desktop/menu_scraping/data/{}.csv'.format(us_time)
 print('Current path: ', path)
+path_2 = '/Users/7w0r4ng3s/Desktop/menu_scraping/data/'
 print()
 
 
 def write_data():
+    # Write today's menu to a csv file containing food list and preference
     with open(path, "w") as output:
         writer = csv.writer(output, lineterminator='\n')
         for key, val in zip(food_list, pref_4):
             writer.writerow([key, val])
     print('write_csv: COMPLETED')
 
-    df = pd.read_csv('{}.csv'.format(us_time), names=['food', 'pref'])
-    df.to_csv('{}.csv'.format(us_time))
+    df = pd.read_csv(path, names=['food', 'pref'])
+    df.to_csv(path)
     print('add_column_name: COMPLETED')
 
 def merge_data():
