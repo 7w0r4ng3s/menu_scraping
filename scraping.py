@@ -80,7 +80,7 @@ print('Current path: ', path)
 print()
 
 
-def write_csv():
+def write_data():
     with open(path, "w") as output:
         writer = csv.writer(output, lineterminator='\n')
         for key, val in zip(food_list, pref_4):
@@ -91,8 +91,20 @@ def write_csv():
     df.to_csv('{}.csv'.format(us_time))
     print('add_column_name: COMPLETED')
 
+def merge_data():
+    # TODO: Figure out a way to get rid of the unnamed: 0 column
+    # TODO: Modify merge_data() so that new data can be append to data.csv
+    files = [f for f in os.listdir('.') if os.path.isfile(f)]
+    merged = []
+    for f in files:
+        filename, ext = os.path.splitext(f)
+        if ext == '.csv':
+            read = pd.read_csv(f)
+            merged.append(read)
 
+    result = pd.concat(merged)
+    result.to_csv('data.csv')
 
 
 if __name__ == "__main__":
-	write_csv()
+	write_data()
