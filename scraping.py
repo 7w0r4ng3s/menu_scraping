@@ -62,7 +62,8 @@ print('-' * 40 + '\n')
 # preference list, labeled by myself
 # pref_1 = [1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0 ]
 # pref_2 = [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0]
-pref_3 = [0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1]
+# pref_3 = [0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1]
+pref_4 = [0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0]
 
 
 # timezone setting
@@ -74,7 +75,7 @@ print()
 
 
 # write the food list to a csv file
-path = '/Users/7w0r4ng3s/Desktop/menu_scraping/{}.csv'.format(us_time)
+path = '/Users/7w0r4ng3s/Desktop/menu_scraping/csv/{}.csv'.format(us_time)
 print('Current path: ', path)
 print()
 
