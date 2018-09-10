@@ -14,7 +14,6 @@ Then the labeled data will be written to a csv file with a name of the current d
 
 Dependencies
 
-<<<<<<< HEAD
 * os
 * bs4 (BeautifulSoup)
 * requests
