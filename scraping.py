@@ -1,6 +1,5 @@
 # import dependencies
 import os
-import io
 import bs4
 import requests
 from bs4 import BeautifulSoup
@@ -8,8 +7,8 @@ from urllib.parse import urljoin
 # from selenium import webdriver
 # from lxml import html
 import csv
-from datetime import datetime, date, timedelta
-from pytz import timezone
+from datetime import datetime
+# from pytz import timezone
 import pandas as pd
 
 
@@ -66,7 +65,7 @@ print('-' * 40 + '\n')
 # pref_2 = [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0]
 # pref_3 = [0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1]
 pref_4 = [0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0]
-
+# TODO: Prompt user input
 
 # timezone setting
 us_pacific = timezone('US/Pacific')
