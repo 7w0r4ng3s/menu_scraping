@@ -82,7 +82,7 @@ print()
 def write_csv():
     with open(path, "w") as output:
         writer = csv.writer(output, lineterminator='\n')
-        for key, val in zip(food_list, pref_3):
+        for key, val in zip(food_list, pref_4):
             writer.writerow([key, val])
     print('write_csv: COMPLETED')
 
