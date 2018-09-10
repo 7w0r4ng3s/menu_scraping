@@ -14,6 +14,7 @@ Then the labeled data will be written to a csv file with a name of the current d
 
 Dependencies
 
+<<<<<<< HEAD
 * os
 * bs4 (BeautifulSoup)
 * requests
@@ -21,10 +22,22 @@ Dependencies
 * csv
 * datetime
 * pandas
+=======
+- os
+- bs4 (BeautifulSoup)
+- requests
+- urllib.parse (urljoin)
+- csv
+- datetime
+- pandas
+>>>>>>> f03f9de4cfe7bf5c2e4bbfcb698c703207621499
 
 Install dependencies with `pip`
 
 ## Usage
 
 Run `python3 scraping.py`
+<<<<<<< HEAD
 
+=======
+>>>>>>> f03f9de4cfe7bf5c2e4bbfcb698c703207621499
