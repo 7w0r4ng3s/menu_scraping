@@ -8,7 +8,7 @@ from urllib.parse import urljoin
 # from lxml import html
 import csv
 from datetime import datetime
-# from pytz import timezone
+from pytz import timezone
 import pandas as pd
 
 
@@ -64,7 +64,8 @@ print('-' * 40 + '\n')
 # pref_1 = [1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 0 ]
 # pref_2 = [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0]
 # pref_3 = [0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1]
-pref_4 = [0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0]
+# pref_4 = [0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0]
+pref_5 = [1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0]
 # TODO: Prompt user input
 
 # timezone setting
@@ -86,10 +87,10 @@ def write_data():
     # Write today's menu to a csv file containing food list and preference
     with open(path, "w") as output:
         writer = csv.writer(output, lineterminator='\n')
-        for key, val in zip(food_list, pref_4):
+        for key, val in zip(food_list, pref_5):
             writer.writerow([key, val])
     print('write_csv: COMPLETED')
-
+    # add index and column names
     df = pd.read_csv(path, names=['food', 'pref'])
     df.index.names = ['index']
     df.to_csv(path)
@@ -111,10 +112,11 @@ def merge_data():
 
 def append_data():
     df1 = pd.read_csv('Data.csv', index_col='index')
+    df1.index.names = ['index']
     df2 = pd.read_csv(path, index_col='index')
     df3 = df1.append(df2).reset_index()
-    df3.index.names = ['index']
     df3 = df3.drop('index', 1).sort_values('food').reset_index().drop('index', 1)
+    df3.index.names = ['index']
     df3.to_csv('Data.csv')
 
 
