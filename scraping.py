@@ -65,8 +65,14 @@ print('-' * 40 + '\n')
 # pref_2 = [1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0]
 # pref_3 = [0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1]
 # pref_4 = [0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 0]
-pref_5 = [1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0]
-# TODO: Prompt user input
+# pref_5 = [1, 0, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0]
+pref = []
+for i in food_list:
+    print(i)
+    preference = int(input())
+    pref.append(preference)
+print(pref)
+len('Preference length: ', pref)
 
 # timezone setting
 us_pacific = timezone('US/Pacific')
@@ -87,7 +93,7 @@ def write_data():
     # Write today's menu to a csv file containing food list and preference
     with open(path, "w") as output:
         writer = csv.writer(output, lineterminator='\n')
-        for key, val in zip(food_list, pref_5):
+        for key, val in zip(food_list, pref):
             writer.writerow([key, val])
     print('write_csv: COMPLETED')
     # add index and column names
@@ -109,6 +115,7 @@ def merge_data():
 
     result = pd.concat(merged)
     result.to_csv('data.csv')
+    # perform additional steps to get rid of those extra columns
 
 def append_data():
     df1 = pd.read_csv('Data.csv', index_col='index')
