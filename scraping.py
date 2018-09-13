@@ -102,19 +102,19 @@ def write_data():
     df.to_csv(path)
     print('add_column_name: COMPLETED')
 
-def merge_data():
-    # TODO: Figure out a way to get rid of the unnamed: 0 column
-    # TODO: Modify merge_data() so that new data can be append to data.csv
-    files = [f for f in os.listdir('.') if os.path.isfile(f)]
-    merged = []
-    for f in files:
-        filename, ext = os.path.splitext(f)
-        if ext == '.csv':
-            read = pd.read_csv(f)
-            merged.append(read)
+# def merge_data():
+#     # TODO: Figure out a way to get rid of the unnamed: 0 column
+#     # TODO: Modify merge_data() so that new data can be append to data.csv
+#     files = [f for f in os.listdir('.') if os.path.isfile(f)]
+#     merged = []
+#     for f in files:
+#         filename, ext = os.path.splitext(f)
+#         if ext == '.csv':
+#             read = pd.read_csv(f)
+#             merged.append(read)
 
-    result = pd.concat(merged)
-    result.to_csv('data.csv')
+#     result = pd.concat(merged)
+#     result.to_csv('data.csv')
     # perform additional steps to get rid of those extra columns
 
 def append_data():
