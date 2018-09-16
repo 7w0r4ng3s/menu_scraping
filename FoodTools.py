@@ -18,8 +18,10 @@ def search():
         
     elif food_name not in foods:
         tmp = [] # a list to store possible foods
-        """if the user type a part of a food name
-        it will return the possible food names"""
+        """
+        if the user type a part of a food name
+        it will return the possible food names
+        """
         
         [tmp.append(item) for item in foods if food_name.lower() in item.lower()] # possible food list
         l = [i+1 for i in list(range(len(tmp)))] # index list
