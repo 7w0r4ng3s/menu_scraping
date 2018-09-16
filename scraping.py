@@ -10,7 +10,7 @@ import csv
 from datetime import datetime
 from pytz import timezone
 import pandas as pd
-import tools
+import FoodTools
 
 
 # url of ucsc college 9 & 10 dining hall
