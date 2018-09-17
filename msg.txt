@@ -1,0 +1,3 @@
+# add functions
+# 1. Compare the current day dataset and the database, pick new foods
+# 2. A report including what is the food I like in the past 
