@@ -11,292 +11,354 @@ index,food,pref
 9,BAR Boardwalk Burgers,1
 10,BAR Hot Dog,1
 11,BAR Middle Eastern,0
-12,BAR Yakisoba Noodles,0
-13,BBQ Beef Brisket,1
-14,BBQ Shredded Pork,1
-15,BBQ Tofu Chili Garlic,1
-16,Bacon,1
-17,Bacon,1
-18,Baja Fish Tacos,1
-19,Baja Taco Bar,0
-20,Baked Potatoes with Toppings,1
-21,Baked Sweet Potato,0
-22,Banana and Coconut Pancakes,1
-23,Bar Indian,0
-24,Bar Indian,0
-25,Bar Pasta,1
-26,Bar Pasta,1
-27,Bar Rice Bowl,0
-28,Bar Taqueria,0
-29,Bar Taqueria,0
-30,Basmati Rice Pullao,0
-31,Beef and Lamb Gyro,0
-32,Beef and Lamb Gyro,1
-33,Belgian Waffles,1
-34,Bengan Aloo,0
-35,Black Bean Corn Salsa,0
-36,Black Beans,0
-37,Blueberry Pancakes,1
-38,Blueberry Pancakes,1
-39,Bread Bun,0
-40,Bread Bun,0
-41,Burger Bar #1 Condiments,1
-42,Burger Bar #1 Condiments,0
-43,Burger Bar #2 Condiments,0
-44,Burger Beef,1
-45,Burger Beef,1
-46,Burger Beef,1
-47,Burger Turkey,0
-48,Buttermilk Pancakes,1
-49,Buttermilk Pancakes,1
-50,Cage Free Scrambled Eggs,1
-51,Cage Free Scrambled Eggs,1
-52,Cage Free Scrambled Eggs,1
-53,Cage Free Scrambled Eggs,1
-54,Cage Free Scrambled Eggs,1
-55,Cage Free Scrambled Eggs,1
-56,Cage Free Scrambled Eggs,1
-57,Cage Free Scrambled Eggs,1
-58,Cage Free Scrambled Eggs,1
-59,California Pasta,1
-60,California Pasta,1
-61,Char Siu Sauce,1
-62,Char Siu Seitan,1
-63,Charro Beans,0
-64,Cheese Enchiladas,1
-65,Cheese Pizza,1
-66,Cheese Pizza,1
-67,Cheese Pizza,1
-68,Cheese Pizza,1
-69,Cheese Pizza,1
-70,Cheese Pizza,1
-71,Cheese Ravioli,0
-72,Cheese Ravioli,0
-73,Cheese Sauce,0
-74,Cheesy Garlic Bread Sticks,1
-75,Cheesy Garlic Bread Sticks,1
-76,Cheesy Garlic Bread Sticks,1
-77,Chef's Special,0
-78,Chef's Special,0
-79,Chicken Apple Sausage,0
-80,Chicken Breast Milanese,0
-81,Chicken Mango Sausage,1
-82,Chicken Mango Sausage,1
-83,Chicken Noodle Soup,1
-84,Chicken Nuggets,1
-85,Chicken Tenders,1
-86,Chicken Tikka Masala,0
-87,Chicken Tortilla Soup,0
-88,Chicken Tortilla Soup,0
-89,Chili con Carne,0
-90,Chili con Carne,0
-91,Chipotle Gardein Strips,0
-92,Chipotle Seitan Fajitas,0
-93,Cilantro Flatbread with Red Onions and Mushrooms,0
-94,Cilantro Flatbread with Red Onions and Mushrooms,0
-95,Cilantro Flatbread with Red Onions and Mushrooms,0
-96,Coconut Syrup,0
-97,Condiments,0
-98,Condiments,0
-99,Condiments,0
-100,Condiments,0
-101,Condiments,0
-102,Condiments,0
-103,Condiments,0
-104,Condiments,0
-105,Condiments,0
-106,Corn Tortillas,0
-107,Corn Tortillas,0
-108,Corn Tortillas,0
-109,Creamy Alfredo Sauce,0
-110,Creamy Alfredo Sauce,0
-111,Creamy Alfredo Sauce,0
-112,Creamy Broccoli Cheddar Soup,0
-113,Creamy Broccoli Cheddar Soup,0
-114,Creamy Polenta,0
-115,Crispy Bacon,1
-116,Crispy Bacon,1
-117,Crispy Tostada,0
-118,Cuban Banana BBQ'd Chicken,0
-119,Cuban Yellow Rice,0
-120,Dal Saag,0
-121,Eggs Benedict,0
-122,Falafels,0
-123,Falafels,0
-124,Fiesta Taquito Salad,0
-125,Filipino Vegan Eggplant Pancit,0
-126,French Fries,1
-127,French Fries,1
-128,French Fries,1
-129,French Waffles,1
-130,Fried Chicken,1
-131,Garlic Mashed Yukon Golds,0
-132,Greek Pizza,0
-133,Grilled Huli Huli Chicken,0
-134,Grilled Pineapple Rings,0
-135,Halal Chicken Patty Sandwich,0
-136,Ham Steaks,0
-137,Hard-boiled Cage Free Eggs,0
-138,Hard-boiled Cage Free Eggs,0
-139,Hard-boiled Cage Free Eggs,0
-140,Hard-boiled Cage Free Eggs,0
-141,Hard-boiled Cage Free Eggs,0
-142,Hard-boiled Cage Free Eggs,0
-143,Hard-boiled Cage Free Eggs,0
-144,Hard-boiled Cage Free Eggs,1
-145,Hard-boiled Cage Free Eggs,0
-146,Hash Brown Patty,1
-147,Hash Brown Patty,1
-148,Hash Brown Patty,1
-149,Hawaiian Bar,0
-150,Hawaiian Coleslaw,0
-151,Hot Dog All Beef,1
-152,Hot Dog Vegan,0
-153,Island BBQ Chicken,1
-154,Island Beef Steak,1
-155,Jasmine Rice,0
-156,Lime Cilantro Basmati Rice,0
-157,Lime Cilantro Basmati Rice,0
-158,Mac & Cheese,1
-159,Mac and Cheese Bar,1
-160,Madras Chicken,0
-161,Malibu Burger,0
-162,Marinara Sauce,1
-163,Marinara Sauce,1
-164,Masala Vegetables,0
-165,Matar Paneer,0
-166,Meatball Bar,1
-167,Meatballs,1
-168,Memphis Meatloaf,0
-169,Mexican Rice,0
-170,Mexican Rice,0
-171,Mexican Rice,0
-172,N.E.Clam Chowder,0
-173,Natural BridgesTofu Scramble,0
-174,Natural BridgesTofu Scramble,0
-175,Natural BridgesTofu Scramble,0
-176,Natural BridgesTofu Scramble,1
-177,Natural BridgesTofu Scramble,0
-178,Natural BridgesTofu Scramble,1
-179,Natural BridgesTofu Scramble,0
-180,Natural BridgesTofu Scramble,0
-181,Natural BridgesTofu Scramble,1
-182,Oatmeal Gluten-Free,0
-183,Oatmeal Gluten-Free,0
-184,Oatmeal Gluten-Free,0
-185,Oatmeal Gluten-Free,0
-186,Oatmeal Gluten-Free,0
-187,Oatmeal Gluten-Free,0
-188,Oatmeal Gluten-Free,0
-189,Oatmeal Gluten-Free,0
-190,Oatmeal Gluten-Free,0
-191,Onion Rings,1
-192,Onion Rings,1
-193,Original Naan,0
-194,Original Naan,0
-195,Oven Roasted Allergen Free Chicken Thigh,1
-196,Oven Roasted Allergen Free Chicken Thigh,0
-197,Oven Roasted Allergen Free Chicken Thigh,1
-198,Oven Roasted Allergen Free Chicken Thigh,1
-199,Oven Roasted Allergen Free Chicken Thigh,0
-200,Oven Roasted Allergen Free Chicken Thigh,0
-201,Oven Roasted Allergen Free Chicken Thigh,0
-202,Oven Roasted Allergen Free Chicken Thigh,0
-203,Oven Roasted Allergen Free Chicken Thigh,0
-204,Oven Roasted Herbed Potatoes,1
-205,Peanut Kung Pao Chicken,1
-206,Peanut Kung Pao Vegetables,0
-207,Penne,1
-208,Penne,1
-209,Pepperoni Pizza,0
-210,Pepperoni Pizza,0
-211,Pepperoni Pizza,0
-212,Pepperoni Pizza,0
-213,Pineapple Chicken Curry,0
-214,Pineapple Tofu Curry,0
-215,Pizza Special,1
-216,"Pizza with Potato, Sausage and Cheese",1
-217,Pork Al Pastor,0
-218,Pork Carnitas,1
-219,Pork Pozole,1
-220,Portabello Tofu Fried Rice,1
-221,Potato Mac Salad,0
-222,Potatoes O'Brien,0
-223,Potatoes O'Brien,0
-224,Quinoa Fruit Salad,0
-225,Red Skin Mashed Potatoes,1
-226,Red Skin Mashed Potatoes,1
-227,Roasted Corn,0
-228,Roasted Seasonal Vegetables,0
-229,Roasted Seasonal Vegetables,0
-230,Roasted Vegetables,0
-231,Roasted Vegetables,0
-232,Roasted Vegetables,0
-233,Roasted Vegetables,0
-234,Roasted Yukon Gold Potatoes,1
-235,Roasted Yukon Gold Potatoes,0
-236,Roma Pesto Pizza,0
-237,Rosemary Roasted Pork Loin,1
-238,Sausage Links,1
-239,Sausage Patties,1
-240,Sauteed Mushrooms,0
-241,Sauteed Mushrooms,0
-242,Sauteed Mushrooms,0
-243,Sesame Udon Noodles,0
-244,Sesame Yakisoba Noodles,1
-245,Spicy Arrabbiata Sauce,0
-246,Spicy Vegan Chicken and Broccoli Stir Fry,0
-247,Steak Cut Fries,1
-248,Steamed Rice,1
-249,Steamed Rice,1
-250,Steamed Rice,1
-251,Steamed Rice,1
-252,Steamed Rice,1
-253,Steamed Rice,1
-254,Steamed Rice,1
-255,Steamed Rice,1
-256,Steamed Rice,1
-257,Steamed Seasonal Vegetables,0
-258,Steamed Seasonal Vegetables,0
-259,Steamed Seasonal Vegetables,0
-260,Steamed Seasonal Vegetables,0
-261,Steamed Seasonal Vegetables,0
-262,Steamed Seasonal Vegetables,0
-263,Steamed Seasonal Vegetables,0
-264,Steamed Seasonal Vegetables,0
-265,Sticky Rice,1
-266,Stir Fry Vegetables,0
-267,Stir Fry Vegetables,0
-268,Stuffed Shells in classic Marinara Sauce,0
-269,Sweet Potato Fries,0
-270,Szechuan Sweet Chili Sauce,1
-271,Szechuan Sweet Chili Sauce,1
-272,Tabouleh Salad,0
-273,Tahini Sauce,0
-274,Tahini Sauce,0
-275,Taqueria Chicken,0
-276,Taqueria Chicken,1
-277,Tator Tots,1
-278,Tator Tots,1
-279,Teriyaki Chicken Shoyu,1
-280,Teriyaki Chicken Shoyu,1
-281,Teriyaki Sauce (Gluten Free),1
-282,Teriyaki Sauce (Gluten Free),1
-283,Texas French Toast,1
-284,Texas French Toast,1
-285,Texas French Toast,1
-286,Thai Coconut Curry Chicken Soup,0
-287,Tomato Bisque Soup,0
-288,Tomato Bisque Soup,1
-289,Turkey Corn Dogs,0
-290,Turkey Sausage Patty,1
-291,Tuscan Vegetable Soup,0
-292,Tzatziki Sauce,0
-293,Tzatziki Sauce,0
-294,Vegan Macaroni & Cheese,0
-295,Vegan Malibu Burger,0
-296,Vegan Malibu Burger,0
-297,Vegan Malibu Burger,0
-298,Vegetable Lo Mein,0
-299,Veggie Fried Rice,0
-300,Veggie Supreme Pizza,0
+12,BAR Wings,0
+13,BAR Yakisoba Noodles,0
+14,BBQ Beef Brisket,1
+15,BBQ Shredded Pork,1
+16,BBQ Tofu Chili Garlic,1
+17,BBQ Wings,0
+18,Bacon,1
+19,Bacon,1
+20,Baja Fish Tacos,1
+21,Baja Taco Bar,0
+22,Baked Potatoes with Toppings,1
+23,Baked Sweet Potato,0
+24,Baked Sweet Potato,0
+25,Banana Maple Walnut Muffin,0
+26,Banana and Coconut Pancakes,1
+27,Bar Indian,0
+28,Bar Indian,0
+29,Bar Pasta,1
+30,Bar Pasta,1
+31,Bar Rice Bowl,0
+32,Bar Taqueria,0
+33,Bar Taqueria,0
+34,Basmati Rice Pullao,0
+35,Beef and Lamb Gyro,0
+36,Beef and Lamb Gyro,1
+37,Belgian Waffles,1
+38,Belgian Waffles,1
+39,Bell Peppers,0
+40,Bengan Aloo,0
+41,Black Bean Corn Salsa,0
+42,Black Beans,0
+43,Blueberry Cheese Ring,1
+44,Blueberry Pancakes,1
+45,Blueberry Pancakes,1
+46,Bob's Pancakes,1
+47,Bourbon Snicker Peanut Bar,0
+48,Bread Bun,0
+49,Bread Bun,0
+50,Breakfast Enchiladas,0
+51,Burger Bar #1 Condiments,0
+52,Burger Bar #1 Condiments,1
+53,Burger Bar #2 Condiments,0
+54,Burger Beef,1
+55,Burger Beef,1
+56,Burger Beef,1
+57,Burger Turkey,0
+58,Buttermilk Pancakes,1
+59,Buttermilk Pancakes,1
+60,Cage Free Eggs,0
+61,Cage Free Omelette Bar,0
+62,Cage Free Scrambled Eggs,1
+63,Cage Free Scrambled Eggs,1
+64,Cage Free Scrambled Eggs,1
+65,Cage Free Scrambled Eggs,1
+66,Cage Free Scrambled Eggs,1
+67,Cage Free Scrambled Eggs,1
+68,Cage Free Scrambled Eggs,1
+69,Cage Free Scrambled Eggs,1
+70,Cage Free Scrambled Eggs,1
+71,Cage Free Scrambled Eggs,1
+72,California Pasta,1
+73,California Pasta,1
+74,Char Siu Sauce,1
+75,Char Siu Seitan,1
+76,Charro Beans,0
+77,Cheddar Cheese,0
+78,Cheese Enchiladas,1
+79,Cheese Pizza,1
+80,Cheese Pizza,1
+81,Cheese Pizza,1
+82,Cheese Pizza,1
+83,Cheese Pizza,1
+84,Cheese Pizza,1
+85,Cheese Pizza,1
+86,Cheese Ravioli,0
+87,Cheese Ravioli,0
+88,Cheese Sauce,1
+89,Cheese Sauce,0
+90,Cheesy Garlic Bread Sticks,1
+91,Cheesy Garlic Bread Sticks,1
+92,Cheesy Garlic Bread Sticks,1
+93,Chef's Special,0
+94,Chef's Special,0
+95,Chicken Apple Sausage,0
+96,Chicken Breast Milanese,0
+97,Chicken Mango Sausage,1
+98,Chicken Mango Sausage,1
+99,Chicken Noodle Soup,1
+100,Chicken Nuggets,1
+101,Chicken Tenders,1
+102,Chicken Tikka Masala,0
+103,Chicken Tortilla Soup,0
+104,Chicken Tortilla Soup,0
+105,Chicken Tortilla Soup,1
+106,Chili con Carne,0
+107,Chili con Carne,0
+108,Chipotle Gardein Strips,0
+109,Chipotle Lime Pork Loin,0
+110,Chipotle Seitan Fajitas,0
+111,Chocolate Cream Pie,0
+112,Cilantro Flatbread with Red Onions and Mushrooms,0
+113,Cilantro Flatbread with Red Onions and Mushrooms,0
+114,Cilantro Flatbread with Red Onions and Mushrooms,0
+115,Coconut Syrup,0
+116,Combo Meat Pizza,0
+117,Condiments,0
+118,Condiments,0
+119,Condiments,0
+120,Condiments,0
+121,Condiments,0
+122,Condiments,0
+123,Condiments,0
+124,Condiments,0
+125,Condiments,0
+126,Condiments,0
+127,Corn Tortillas,0
+128,Corn Tortillas,0
+129,Corn Tortillas,0
+130,Creamy Alfredo Sauce,0
+131,Creamy Alfredo Sauce,0
+132,Creamy Alfredo Sauce,0
+133,Creamy Broccoli Cheddar Soup,0
+134,Creamy Broccoli Cheddar Soup,0
+135,Creamy Polenta,0
+136,Crispy Bacon,1
+137,Crispy Bacon,1
+138,Crispy Bacon,1
+139,Crispy Tostada,0
+140,Cuban Banana BBQ'd Chicken,0
+141,Cuban Yellow Rice,0
+142,Curly Fries,1
+143,Dal Saag,0
+144,Eggs Benedict,0
+145,Falafels,0
+146,Falafels,0
+147,Feta Cheese,0
+148,Fiesta Taquito Salad,0
+149,Filipino Vegan Eggplant Pancit,0
+150,Fire Roasted Corn Soup,0
+151,French Fried Mac and Cheese Bites,0
+152,French Fries,1
+153,French Fries,1
+154,French Fries,1
+155,French Waffles,1
+156,Fresh Organic Spinach,0
+157,Fresh Tomato,0
+158,Fried Chicken,1
+159,Garlic Mashed Yukon Golds,0
+160,Greek Pizza,0
+161,Grilled Huli Huli Chicken,0
+162,Grilled Pineapple Rings,0
+163,Halal Chicken Patty Sandwich,0
+164,Ham Steaks,0
+165,Hard-boiled Cage Free Eggs,0
+166,Hard-boiled Cage Free Eggs,0
+167,Hard-boiled Cage Free Eggs,0
+168,Hard-boiled Cage Free Eggs,0
+169,Hard-boiled Cage Free Eggs,1
+170,Hard-boiled Cage Free Eggs,0
+171,Hard-boiled Cage Free Eggs,0
+172,Hard-boiled Cage Free Eggs,0
+173,Hard-boiled Cage Free Eggs,0
+174,Hard-boiled Cage Free Eggs,0
+175,Hash Brown Patty,1
+176,Hash Brown Patty,1
+177,Hash Brown Patty,1
+178,Hawaiian Bar,0
+179,Hawaiian Coleslaw,0
+180,Hawaiian Coleslaw,0
+181,Hot 'N Spicy Wings,0
+182,Hot Dog All Beef,1
+183,Hot Dog Vegan,0
+184,Island BBQ Chicken,1
+185,Island Beef Steak,1
+186,Jalapeno,0
+187,Jasmine Rice,0
+188,Lime Cilantro Basmati Rice,0
+189,Lime Cilantro Basmati Rice,0
+190,Mac & Cheese,1
+191,Mac and Cheese Bar,1
+192,Madras Chicken,0
+193,Malibu Burger,0
+194,Marinara Sauce,1
+195,Marinara Sauce,1
+196,Masala Vegetables,0
+197,Matar Paneer,0
+198,Meatball Bar,1
+199,Meatballs,1
+200,Memphis Meatloaf,0
+201,Mexican Rice,0
+202,Mexican Rice,0
+203,Mexican Rice,0
+204,Mushroom & Swiss Burger with Onions,0
+205,N.E.Clam Chowder,0
+206,Nachos Bar,0
+207,Natural BridgesTofu Scramble,1
+208,Natural BridgesTofu Scramble,0
+209,Natural BridgesTofu Scramble,0
+210,Natural BridgesTofu Scramble,0
+211,Natural BridgesTofu Scramble,0
+212,Natural BridgesTofu Scramble,1
+213,Natural BridgesTofu Scramble,0
+214,Natural BridgesTofu Scramble,1
+215,Natural BridgesTofu Scramble,0
+216,Oatmeal Gluten-Free,0
+217,Oatmeal Gluten-Free,0
+218,Oatmeal Gluten-Free,0
+219,Oatmeal Gluten-Free,0
+220,Oatmeal Gluten-Free,0
+221,Oatmeal Gluten-Free,0
+222,Oatmeal Gluten-Free,0
+223,Oatmeal Gluten-Free,0
+224,Oatmeal Gluten-Free,0
+225,Oatmeal Gluten-Free,0
+226,Onion Rings,1
+227,Onion Rings,1
+228,Onions,0
+229,Original Naan,0
+230,Original Naan,0
+231,Oven Roasted Allergen Free Chicken Thigh,0
+232,Oven Roasted Allergen Free Chicken Thigh,1
+233,Oven Roasted Allergen Free Chicken Thigh,0
+234,Oven Roasted Allergen Free Chicken Thigh,1
+235,Oven Roasted Allergen Free Chicken Thigh,1
+236,Oven Roasted Allergen Free Chicken Thigh,0
+237,Oven Roasted Allergen Free Chicken Thigh,0
+238,Oven Roasted Allergen Free Chicken Thigh,0
+239,Oven Roasted Allergen Free Chicken Thigh,0
+240,Oven Roasted Chicken Thigh,0
+241,Oven Roasted Herbed Potatoes,1
+242,Oven Roasted Turkey,0
+243,Papas Bravas,0
+244,Papas Fritas,0
+245,Peanut Kung Pao Chicken,1
+246,Peanut Kung Pao Vegetables,0
+247,Penne,1
+248,Penne,1
+249,Pepperoni Pizza,0
+250,Pepperoni Pizza,0
+251,Pepperoni Pizza,0
+252,Pepperoni Pizza,0
+253,Pineapple Chicken Curry,0
+254,Pineapple Tofu Curry,0
+255,Pizza Special,1
+256,"Pizza with Potato, Sausage and Cheese",1
+257,Pork Al Pastor,0
+258,Pork Carnitas,1
+259,Pork Pozole,1
+260,Portabello Tofu Fried Rice,1
+261,Portobello Cheese Quesadilla,0
+262,Potato Mac Salad,0
+263,Potatoes O'Brien,0
+264,Potatoes O'Brien,0
+265,Quinoa Fruit Salad,0
+266,Ranch Chicken Sandwich with Bacon,0
+267,Red Skin Mashed Potatoes,1
+268,Red Skin Mashed Potatoes,1
+269,Roasted Corn,0
+270,Roasted Corn,0
+271,Roasted Kale and Butternut Squash,0
+272,Roasted Seasonal Vegetables,0
+273,Roasted Seasonal Vegetables,0
+274,Roasted Seasonal Vegetables,0
+275,Roasted Vegetables,0
+276,Roasted Vegetables,0
+277,Roasted Vegetables,0
+278,Roasted Vegetables,0
+279,Roasted Yukon Gold Potatoes,1
+280,Roasted Yukon Gold Potatoes,0
+281,Roma Pesto Pizza,0
+282,Roma Pesto Pizza,0
+283,Rosemary Roasted Pork Loin,1
+284,Sausage Links,1
+285,Sausage Patties,1
+286,Sauteed Mushrooms,0
+287,Sauteed Mushrooms,0
+288,Sauteed Mushrooms,0
+289,Sesame Udon Noodles,0
+290,Sesame Yakisoba Noodles,1
+291,Sliced Olived,0
+292,Smoked Ham,0
+293,Soyrizo Tofu Scramble,0
+294,Spicy Arrabbiata Sauce,0
+295,Spicy Vegan Chicken and Broccoli Stir Fry,0
+296,Steak Cut Fries,1
+297,Steamed Rice,1
+298,Steamed Rice,1
+299,Steamed Rice,1
+300,Steamed Rice,1
+301,Steamed Rice,1
+302,Steamed Rice,1
+303,Steamed Rice,1
+304,Steamed Rice,1
+305,Steamed Rice,1
+306,Steamed Rice,1
+307,Steamed Seasonal Vegetables,0
+308,Steamed Seasonal Vegetables,0
+309,Steamed Seasonal Vegetables,0
+310,Steamed Seasonal Vegetables,0
+311,Steamed Seasonal Vegetables,0
+312,Steamed Seasonal Vegetables,0
+313,Steamed Seasonal Vegetables,0
+314,Steamed Seasonal Vegetables,0
+315,Sticky Rice,1
+316,Stir Fry Vegetables,0
+317,Stir Fry Vegetables,0
+318,Strawberry Crunch Muffin,1
+319,Stuffed Shells in classic Marinara Sauce,0
+320,Sweet Potato Fries,0
+321,Szechuan Sweet Chili Sauce,1
+322,Szechuan Sweet Chili Sauce,1
+323,Tabouleh Salad,0
+324,Tahini Sauce,0
+325,Tahini Sauce,0
+326,Tamarind BBQ Tempeh,0
+327,Taqueria Chicken,0
+328,Taqueria Chicken,1
+329,Taqueria Chicken,0
+330,Taqueria Ground Beef,0
+331,Tator Tots,1
+332,Tator Tots,1
+333,Teriyaki Chicken Shoyu,1
+334,Teriyaki Chicken Shoyu,1
+335,Teriyaki Glaze Wings,0
+336,Teriyaki Sauce (Gluten Free),1
+337,Teriyaki Sauce (Gluten Free),1
+338,Texas French Toast,1
+339,Texas French Toast,1
+340,Texas French Toast,1
+341,Thai Coconut Curry Chicken Soup,0
+342,Tomato Bisque Soup,0
+343,Tomato Bisque Soup,1
+344,Tortilla Chips,0
+345,Turkey Corn Dogs,0
+346,Turkey Sausage Patty,1
+347,Tuscan Vegetable Soup,0
+348,Tzatziki Sauce,0
+349,Tzatziki Sauce,0
+350,UCSC Bakery French Rolls,1
+351,Vegan Baked Beans,0
+352,Vegan Macaroni & Cheese,0
+353,Vegan Malibu Burger,0
+354,Vegan Malibu Burger,0
+355,Vegan Malibu Burger,0
+356,Vegan Oatmeal Cookie,0
+357,Vegan Peanut Granola,0
+358,Vegan Tenders,0
+359,Vegetable Lo Mein,0
+360,Vegetable Lo Mein,0
+361,Veggie Fried Rice,0
+362,Veggie Supreme Pizza,0
