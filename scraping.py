@@ -71,6 +71,9 @@ pref = []
 for i in food_list:
     print(i)
     preference = int(input())
+    if preference != 0 and preference != 1:
+        print('Incorrect input')
+        break
     pref.append(preference)
 print(pref)
 len('Preference length: ', pref)
