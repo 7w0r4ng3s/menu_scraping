@@ -26,12 +26,14 @@ def search():
         [tmp.append(item) for item in foods if food_name.lower() in item.lower()] # possible food list
         l = [i+1 for i in list(range(len(tmp)))] # index list
 
+        # no search results
         if len(tmp) == 0:
             print(f'No result related to {food_name}. Please try again.')
             return None
 
         print('Do you mean:')
 
+        # show search results (related)
         food_dict = dict(zip(l, tmp))
         for i in food_dict.keys():
             print(i, food_dict[i])
