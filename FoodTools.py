@@ -45,7 +45,7 @@ def search():
         print('-' * 80)
         print(f'Out of {total} time(s), you like [{food_dict[choice]}] {like} time(s).')
         print('-' * 80)
-return score
+    return score
 
 
 def report(food_name):
