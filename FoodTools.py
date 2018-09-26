@@ -66,3 +66,4 @@ def report(food_name):
 # an algorithm which calculates a 'food value'
 # food value - a value evaluating the likelihood you will like the menu of one day
 # based on the food preference database
+
