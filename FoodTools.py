@@ -72,6 +72,7 @@ def never_eat():
 	never = []
 	for food in foods:
 		df_food = df.loc[df['food'] == food] # dataframe of the specific food
+		# the food must appear over 3 times to count
 		if df_food['food'].count() > 3:
 			if df_food['pref'].sum() == 0:
 				never.append(food)
