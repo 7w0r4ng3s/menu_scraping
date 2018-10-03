@@ -1,7 +1,7 @@
 import pandas as pd
 
 # read the csv file and make a unique list of foods
-df = pd.read_csv('Data.csv').drop('index', 1)
+df = pd.read_csv('../Data.csv').drop('index', 1)
 foods = list(df['food'].unique()) # a list of unique foods
 
 # return the number of times a food appears and the number of time you like it
