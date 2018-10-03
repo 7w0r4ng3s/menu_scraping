@@ -78,9 +78,15 @@ def never_eat():
 				never.append(food)
 	return never
 
-# an algorithm which calculates a 'food value'
-# food value - a value evaluating the likelihood you will like the menu of one day
-# based on the food preference database
-# def evaluate(date):
-	
+def always_like():
+	'''
+	Return a list of foods you click like all the time
+	'''
+    always = []
+    for food in foods:
+        df_food = df.loc[df['food'] == food]
+        if df_food['pref'].sum() == df_food['food'].count():
+            always.append(food)
+    return always
+
 
