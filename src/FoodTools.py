@@ -82,11 +82,11 @@ def always_like():
 	'''
 	Return a list of foods you click like all the time
 	'''
-    always = []
-    for food in foods:
-        df_food = df.loc[df['food'] == food]
-        if df_food['pref'].sum() == df_food['food'].count():
-            always.append(food)
-    return always
+	always = []
+	for food in foods:
+		df_food = df.loc[df['food'] == food]
+		if df_food['pref'].sum() == df_food['food'].count():
+			always.append(food)
+	return always
 
 
